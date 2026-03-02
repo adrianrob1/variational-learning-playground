@@ -1,6 +1,6 @@
-# Reproducing ICLR 2025 MBR Uncertainty Experiments
+# Reproducing ICLR 2025 MBR Decoding Experiments
 
-This guide explains how to use the **Variational Learning Playground** to reproduce the Minimum Bayes Risk (MBR) decoding experiments for text generation, as presented in the ICLR 2025 paper: [Uncertainty-Aware Minimum Bayes Risk Decoding](https://github.com/UKPLab/iclr2025-mbr-uncertainty).
+This guide explains how to use the **Variational Learning Benchmark** to reproduce the Minimum Bayes Risk (MBR) decoding experiments for text generation, as presented in the ICLR 2025 paper: [Uncertainty-Aware Minimum Bayes Risk Decoding](https://github.com/UKPLab/iclr2025-mbr-uncertainty).
 
 **Note:** In this repository, we strictly provide tools to reproduce the Hugging Face (Gemma) track. For reproducing the specific `fairseq` track (IWSLT14), please refer to the original paper's repository, as porting its modified `fairseq` fork is highly intrusive.
 
