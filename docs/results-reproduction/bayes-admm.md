@@ -1,8 +1,8 @@
 # Reproducing Results from `bayes-admm`
 
-This benchmark natively supports the `bayes-admm` components port inside `src/vlbench/federated`. 
+This benchmark natively supports the `bayes-admm` components port inside `src/vlbench/federated`. So the results from [bayes-admm](https://github.com/team-approx-bayes/bayes-admm) can be reproduced using `vlbench`.
 
-You can use the federated demonstration script to replicate the 2D toy dataset results from the `bayes-admm` paper, evaluating convergence and visualization of the global model learned using variations of ADMM and other optimization strategies.
+For example, you can use the federated demonstration script to replicate the 2D toy dataset results from the `bayes-admm` paper, evaluating convergence and visualization of the global model learned using variations of ADMM and other optimization strategies.
 
 ## Overview
 
