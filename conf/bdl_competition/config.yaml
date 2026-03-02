@@ -1,0 +1,21 @@
+defaults:
+  - dataset: cifar10
+  - model: cifar_alexnet
+  - method: ivon
+  - _self_
+
+workers: 1
+tbatch: 512
+vbatch: 512
+epochs: 400
+warmup: 5
+lr_final: 0.0
+seed: 0
+device: cuda
+save_dir: outputs/bdl_competition
+data_dir: data
+bins: 20
+printfreq: 100
+tensorboard_dir: ""
+mc_samples: 1
+testmc: 64

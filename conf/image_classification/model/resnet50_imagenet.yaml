@@ -1,0 +1,3 @@
+# conf/image_classification/model/resnet50_imagenet.yaml
+_target_: vlbench.models.resnet50_imagenet
+outclass: 1000

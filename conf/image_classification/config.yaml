@@ -1,0 +1,25 @@
+# conf/image_classification/config.yaml
+# Default configuration for image classification training.
+# Override with: uv run python -m vlbench.image_classification.train optimizer=sgd dataset=cifar100
+
+defaults:
+  - optimizer: ivon
+  - dataset: cifar10
+  - _self_
+
+arch: resnet20
+epochs: 200
+seed: 0
+device: cuda
+workers: 4
+tbatch: 50
+vbatch: 50
+tvsplit: 1.0
+printfreq: 200
+bins: 20
+plotdiagram: false
+save_dir: "runs/${dataset.name}/${optimizer.name}/${arch}/${seed}"
+data_dir: "data"
+tensorboard_dir: ""
+resume: ""
+warmup: 5

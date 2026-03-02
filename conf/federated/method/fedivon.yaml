@@ -1,0 +1,13 @@
+name: "fedivon"
+_target_: vloptimizers.federated.ivon_federated.IVONFederated
+_partial_: true
+lr: 0.1
+weight_decay: 0.0001
+rho: 1.0 # Federated step size
+temperature: 1.0
+beta2: 0.99
+hess_init: 0.1
+batchupperbound: false
+scheduler: true
+num_comm_rounds: 100
+local_epochs: 1

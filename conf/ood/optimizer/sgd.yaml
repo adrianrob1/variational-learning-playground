@@ -1,0 +1,5 @@
+# conf/ood/optimizer/sgd.yaml
+# SGD / MAP — single deterministic forward pass
+name: sgd
+testsamples: 1
+testrepeat: 1

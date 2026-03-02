@@ -1,0 +1,13 @@
+name: "mnist"
+num_classes: 10
+in_channels: 1
+img_size: 28
+input_dim: 784
+num_clients: 10
+alpha1: 1e6
+alpha2: 0.5
+batch_size: 32
+workers: 2
+loader:
+  _target_: vldatasets.partitioned.mnist.get_partitioned_mnist_loaders
+  _partial_: true

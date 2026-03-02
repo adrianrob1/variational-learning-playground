@@ -1,0 +1,29 @@
+defaults:
+  - method: sgd
+  - dataset: cifar10
+  - model: resnet20
+  - _self_
+
+workers: 1
+tbatch: 512
+vbatch: 512
+tvsplit: 0.9
+epochs: 200
+warmup: 5
+seed: 0
+device: cuda
+save_dir: save_temp
+data_dir: data
+bins: 20
+printfreq: 100
+tensorboard_dir: ""
+# SWAG specific
+swag_start: 160
+swag_lr: 0.01
+swag_collectfreq: 1
+swag_valfreq: 5
+swag_bnupdate: true
+# BBB / VON specific
+mc_samples: 1
+temperature: 1.0
+std_init: 1.0

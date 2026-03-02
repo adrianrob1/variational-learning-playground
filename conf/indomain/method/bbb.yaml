@@ -1,0 +1,5 @@
+_target_: torch.optim.AdamW
+name: bbb
+lr: 0.1
+weight_decay: 2e-4
+# temperature and std_init are handled in train.py / model registry

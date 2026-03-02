@@ -1,0 +1,6 @@
+# conf/image_classification/dataset/imagenet_ffcv.yaml
+name: imagenet
+ntrain: 1281167
+ntest: 50000
+outclass: 1000
+insize: 224

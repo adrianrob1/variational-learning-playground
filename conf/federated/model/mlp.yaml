@@ -1,0 +1,7 @@
+name: mlp
+_target_: bdl_indomain.models.MLP
+input_dim: ${dataset.input_dim}
+hidden_dims:
+  - 512
+  - 512
+output_dim: ${dataset.num_classes}

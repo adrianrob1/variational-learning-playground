@@ -1,0 +1,17 @@
+defaults:
+  - optimizer: sgd
+  - dataset: svhn
+  - _self_
+
+workers: 1
+batch: 512
+testsamples: 1
+testrepeat: 1
+device: cuda
+seed: 0
+save_dir: save_temp
+data_dir: ../data
+printfreq: 10
+saveoutput: false
+swag_modelsamples: 1
+swag_samplemode: modelwise

@@ -1,0 +1,3 @@
+name: medmnist_lenet
+width_mult: 1
+activation: ReLU

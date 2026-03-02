@@ -1,0 +1,4 @@
+name: uci_mlp
+hidden_dims:
+  - 50
+activation: ReLU

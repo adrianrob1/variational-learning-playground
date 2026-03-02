@@ -1,0 +1,11 @@
+# conf/indomain/method/adahessian.yaml
+_target_: vloptimizers.adahessian.AdaHessian
+name: adahessian
+lr: 0.1
+betas: [0.9, 0.999]
+eps: 1e-8
+weight_decay: 0.0
+hessian_power: 1.0
+update_each: 1
+n_samples: 1
+create_graph: true

@@ -1,0 +1,10 @@
+_target_: vloptimizers.ivon.IVON
+lr: 1.0
+weight_decay: 1e-4
+beta1: 0.9
+beta2: 0.999
+hess_init: 1.0
+ess: 5e4
+mc_samples: 1
+clip_radius: 1e10
+name: ivon

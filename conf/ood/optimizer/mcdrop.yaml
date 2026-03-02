@@ -1,0 +1,5 @@
+# conf/ood/optimizer/mcdrop.yaml
+# MC-Dropout — duplicate batch 32× for stochastic forward passes
+name: mcdrop
+testsamples: 32
+testrepeat: 1

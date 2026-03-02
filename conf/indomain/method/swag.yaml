@@ -1,0 +1,6 @@
+_target_: torch.optim.SGD
+name: swag
+lr: 0.05
+momentum: 0.9
+weight_decay: 2e-4
+# swag_* are handled in train.py

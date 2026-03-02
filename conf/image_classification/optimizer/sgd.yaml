@@ -1,0 +1,11 @@
+# conf/image_classification/optimizer/sgd.yaml
+name: sgd
+learning_rate: 0.1
+lr_final: 0.0
+weight_decay: 1e-4
+momentum: 0.9
+momentum_hess: 0.99  # unused by SGD
+hess_init: 1.0       # unused by SGD
+ess: .inf             # unused by SGD
+clip_radius: .inf    # unused by SGD
+mc_samples: 1        # unused by SGD

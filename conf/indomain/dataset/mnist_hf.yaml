@@ -1,0 +1,18 @@
+_target_: vldatasets.standard.DatasetConfig
+name: mnist_hf
+outclass: 10
+ntrain: 60000
+ntest: 10000
+insize: 28
+train_loader_f: 
+  _target_: vldatasets.standard.dataloaders.get_hf_train_loaders
+  path: mnist
+  image_col: image
+  label_col: label
+  _partial_: true
+test_loader_f:
+  _target_: vldatasets.standard.dataloaders.get_hf_test_loader
+  path: mnist
+  image_col: image
+  label_col: label
+  _partial_: true

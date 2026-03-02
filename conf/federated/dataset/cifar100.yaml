@@ -1,0 +1,13 @@
+name: "cifar100"
+num_classes: 100
+in_channels: 3
+img_size: 32
+input_dim: 3072
+num_clients: 10
+alpha1: 1e6
+alpha2: 0.5
+batch_size: 64
+workers: 2
+loader:
+  _target_: vldatasets.partitioned.cifar.get_partitioned_cifar100_loaders
+  _partial_: true

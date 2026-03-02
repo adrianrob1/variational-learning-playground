@@ -1,0 +1,6 @@
+# conf/image_classification/dataset/cifar100.yaml
+name: cifar100
+ntrain: 50000
+ntest: 10000
+outclass: 100
+insize: 32

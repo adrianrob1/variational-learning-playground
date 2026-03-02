@@ -1,0 +1,7 @@
+# conf/ood/optimizer/swag.yaml
+# SWAG — ensemble of 64 sampled models, modelwise sampling
+name: swag
+testsamples: 1
+testrepeat: 1
+swag_modelsamples: 64
+swag_samplemode: modelwise

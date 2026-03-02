@@ -1,0 +1,6 @@
+# conf/image_classification/dataset/tinyimagenet.yaml
+name: tinyimagenet
+ntrain: 100000
+ntest: 10000
+outclass: 200
+insize: 64

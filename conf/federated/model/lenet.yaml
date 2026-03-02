@@ -1,0 +1,4 @@
+name: lenet
+_target_: bdl_indomain.models.LeNet
+num_classes: ${dataset.num_classes}
+in_channels: ${dataset.in_channels}

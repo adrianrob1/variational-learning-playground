@@ -1,0 +1,11 @@
+# conf/image_classification/optimizer/adamw.yaml
+name: adamw
+learning_rate: 1e-3
+lr_final: 0.0
+weight_decay: 1e-4
+momentum: 0.9
+momentum_hess: 0.99  # unused by AdamW
+hess_init: 1.0       # unused by AdamW
+ess: .inf             # unused by AdamW
+clip_radius: .inf    # unused by AdamW
+mc_samples: 1        # unused by AdamW

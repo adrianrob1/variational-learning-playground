@@ -1,0 +1,6 @@
+_target_: vloptimizers.VOGN
+name: vogn
+lr: 0.1
+weight_decay: 2e-4
+mc_samples: 1
+# data_size is injected in train.py

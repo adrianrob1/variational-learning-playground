@@ -1,0 +1,13 @@
+# conf/image_classification/method/ivon_imagenet.yaml
+_target_: vloptimizers.ivon.IVON
+name: ivon
+lr: 1.0
+weight_decay: 1e-4
+beta1: 0.9
+beta2: 0.999
+hess_init: 1.0
+ess: 50000.0
+clip_radius: .inf
+mc_samples: 1
+sync: true
+debias: true

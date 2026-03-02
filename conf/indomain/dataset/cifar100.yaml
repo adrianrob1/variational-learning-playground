@@ -1,0 +1,12 @@
+_target_: vldatasets.standard.DatasetConfig
+name: cifar100
+outclass: 100
+ntrain: 50000
+ntest: 10000
+insize: 32
+train_loader_f: 
+  _target_: vldatasets.standard.dataloaders.get_cifar100_train_loaders
+  _partial_: true
+test_loader_f:
+  _target_: vldatasets.standard.dataloaders.get_cifar100_test_loader
+  _partial_: true

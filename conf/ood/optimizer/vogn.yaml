@@ -1,0 +1,5 @@
+# conf/ood/optimizer/vogn.yaml
+# VOGN — 64 posterior samples averaged via sampled_params()
+name: vogn
+testsamples: 1
+testrepeat: 64

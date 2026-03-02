@@ -1,0 +1,6 @@
+# conf/ood/optimizer/bbb.yaml
+# BBB (Bayes-by-Backprop via IVON with BNN-style weights)
+# Uses testrepeat for posterior sampling, same interface as ivon
+name: bbb
+testsamples: 1
+testrepeat: 64

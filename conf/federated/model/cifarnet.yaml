@@ -1,0 +1,4 @@
+name: cifarnet
+_target_: vlbench.federated.models.CifarNet
+in_channels: ${dataset.in_channels}
+out_channels: ${dataset.num_classes}

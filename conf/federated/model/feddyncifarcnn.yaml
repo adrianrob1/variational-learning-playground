@@ -1,0 +1,4 @@
+name: feddyncifarcnn
+_target_: vlbench.federated.models.FedDynCifarCNN
+n_cls: ${dataset.num_classes}
+in_channels: ${dataset.in_channels}

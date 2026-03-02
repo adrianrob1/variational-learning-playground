@@ -1,0 +1,5 @@
+# conf/ood/optimizer/ivon.yaml
+# IVON — 64 posterior samples averaged via sampled_params()
+name: ivon
+testsamples: 1
+testrepeat: 64

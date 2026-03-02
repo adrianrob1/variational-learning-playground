@@ -1,0 +1,12 @@
+# conf/image_classification/optimizer/adahessian.yaml
+name: adahessian
+learning_rate: 0.1
+lr_final: 0.0
+weight_decay: 1e-4
+momentum: 0.9
+momentum_hess: 0.999  # unused by AdaHessian directly
+hess_init: 1.0        # unused by AdaHessian
+ess: .inf              # unused by AdaHessian
+clip_radius: .inf     # unused by AdaHessian
+mc_samples: 1         # unused by AdaHessian
+create_graph: true   # signal second-order requirement

@@ -1,0 +1,4 @@
+name: resnet20
+_target_: vlbench.federated.models.ResNet20
+num_classes: ${dataset.num_classes}
+normalisation: GroupNorm

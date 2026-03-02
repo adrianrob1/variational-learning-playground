@@ -1,0 +1,11 @@
+# conf/image_classification/optimizer/ivon.yaml
+name: ivon
+learning_rate: 0.2
+lr_final: 0.0
+weight_decay: 2e-4
+momentum: 0.9
+momentum_hess: 0.99999
+hess_init: 0.5
+ess: 50000.0
+clip_radius: .inf
+mc_samples: 1

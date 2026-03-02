@@ -1,0 +1,4 @@
+name: linear
+_target_: vlbench.federated.models.LinearModel
+D_in: ${dataset.input_dim}
+D_out: ${dataset.num_classes}

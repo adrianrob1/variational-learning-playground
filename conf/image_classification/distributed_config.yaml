@@ -1,0 +1,22 @@
+# conf/image_classification/distributed_config.yaml
+defaults:
+  - method: ivon_imagenet
+  - dataset: imagenet_ffcv
+  - _self_
+
+model:
+  name: resnet50_imagenet
+
+epochs: 90
+seed: 0
+device: cuda
+workers: 8
+tbatch: 1024
+vbatch: 1024
+printfreq: 100
+bins: 20
+save_dir: "runs/imagenet/${method.name}/${model.name}/${seed}"
+data_dir: "/datasets/imagenet_ffcv"
+resume: ""
+warmup: 5
+mc_samples: 1
