@@ -1,6 +1,6 @@
 # Federated Learning Benchmark
 
-This module provides tools for testing optimizers and models in a federated learning (FL) setting with partitioned datasets (IID and non-IID). It supports several standard aggregation methods and tracks relevant metrics like Variational Objective (ELBO).
+This module provides tools for testing optimizers and models in a federated learning (FL) setting with partitioned datasets (IID and non-IID). It supports several standard aggregation methods and tracks relevant metrics like Variational Objective (ELBO). We added some of the experiments from: [Federated ADMM from Bayesian Duality](https://arxiv.org/pdf/2506.13150)
 
 ## Features
 
